@@ -701,7 +701,7 @@ function initializeChatbot(config) {
             
             <div id="pocketflow-chat-messages">
                 <div class="pocketflow-context-banner" id="pocketflow-chat-context-banner">
-                    <strong><a href="https://github.com/The-Pocket/PocketFlow-Tutorial-Website-Chatbot" target="_blank" style="color: var(--chatbot-primary); text-decoration: none;">This chatbot is open source</a></strong>
+                    <strong><a href="https://github.com/Rich-Idea-Solutions/PocketFlow-Tutorial-Website-Chatbot" target="_blank" style="color: var(--chatbot-primary); text-decoration: none;">This chatbot is open source</a></strong>
                 </div>
                 
                 <div class="pocketflow-message-container">

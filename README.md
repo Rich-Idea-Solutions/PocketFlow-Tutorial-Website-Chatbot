@@ -1,7 +1,7 @@
 <h1 align="center">"Set & Forget" AI Chatbot for Your Website</h1>
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-[![Powered by PocketFlow](https://img.shields.io/badge/Powered%20by-PocketFlow-blueviolet)](https://github.com/The-Pocket/PocketFlow)
+[![Powered by PocketFlow](https://img.shields.io/badge/Powered%20by-PocketFlow-blueviolet)](https://github.com/Rich-Idea-Solutions/PocketFlow-Tutorial-Website-Chatbot)
  <a href="https://discord.gg/hUHHE9Sa6T">
     <img src="https://img.shields.io/discord/1346833819172601907?logo=discord&style=flat">
 </a>
@@ -21,17 +21,11 @@
 
 </p>
 
-This is a tutorial project for [Pocket Flow](https://github.com/The-Pocket/PocketFlow), a 100-line LLM framework. The chatbot intelligently explores multiple web pages, makes decisions about which content is relevant, and provides comprehensive answers based on the discovered information.
+This is a tutorial project for [Pocket Flow](https://github.com/Rich-Idea-Solutions/PocketFlow-Tutorial-Website-Chatbot), a 100-line LLM framework. The chatbot intelligently explores multiple web pages, makes decisions about which content is relevant, and provides comprehensive answers based on the discovered information.
 
-- Check out the [Substack Post Tutorial](https://pocketflow.substack.com/p/the-easiest-way-to-build-an-ai-chatbot) for more
 
-- **📺 Watch the technical deep dive on [YouTube](https://www.youtube.com/watch?v=emeVLS4Dmcc)!**
 
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=emeVLS4Dmcc">
-    <img src="./assets/youtube.png" alt="Watch the technical deep dive video on YouTube" width="600">
-  </a>
-</p>
+
 
 ## 🚀 Getting Started
 
@@ -76,7 +70,7 @@ This is a tutorial project for [Pocket Flow](https://github.com/The-Pocket/Pocke
    # Specific instructions for different use cases
    python main.py https://azure.microsoft.com/en-us/ "What are your pricing plans?" "Look for pricing information and compare different tiers"
    
-   python main.py https://github.com/the-pocket/PocketFlow "How does PocketFlow work?" "Prioritize README and documentation files"
+   python main.py https://github.com/Rich-Idea-Solutions/PocketFlow-Tutorial-Website-Chatbot "How does PocketFlow work?" "Prioritize README and documentation files"
    ```
 
    Our AI chatbot relies on web crawling (see [`web_crawler.py`](utils/web_crawler.py)) to understand your content. Please note these limitations:

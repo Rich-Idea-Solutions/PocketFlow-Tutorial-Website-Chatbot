@@ -47,9 +47,7 @@ def filter_valid_urls(urls, allowed_prefixes_or_domains):
 
 if __name__ == "__main__":
     test_urls = [
-        "https://github.com/The-Pocket/PocketFlow",
-        "https://github.com/The-Pocket/PocketFlow/blob/main/tests/test_async_batch_flow.py", 
-        "https://github.com/The-Pocket",
+        "https://github.com/Rich-Idea-Solutions/PocketFlow-Tutorial-Website-Chatbot",
         "https://github.com/other-repo",
         "https://docs.example.com/api/v1",
         "https://docs.example.com/guide",
@@ -59,7 +57,7 @@ if __name__ == "__main__":
     ]
     
     print("=== Testing URL prefix matching ===")
-    allowed_prefixes = ["https://github.com/The-Pocket", "https://docs.example.com/"]
+    allowed_prefixes = ["https://github.com/Rich-Idea-Solutions/", "https://docs.example.com/"]
     
     for url in test_urls:
         valid = is_valid_url(url, allowed_prefixes)

@@ -37,7 +37,7 @@ def crawl_webpage(url, delay_after_load=2):
     return asyncio.run(_async_crawl())
 
 if __name__ == "__main__":
-    test_url = "https://github.com/The-Pocket/PocketFlow/blob/main/.cursorrules"
+    test_url = "https://github.com/Rich-Idea-Solutions/PocketFlow-Tutorial-Website-Chatbot/blob/main/.cursorrules"
     
     content, links = crawl_webpage(test_url)
     
